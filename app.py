@@ -19,7 +19,7 @@ clear()
 print("Master Manga")
 print("by simplesentai")
 print("----------------------------------------------------------------")
-while choice != 4:
+while choice != 7:
 
     print("What do you want to do?")
     print("1. Show read manga")
@@ -28,7 +28,7 @@ while choice != 4:
     print("4. Move manga")
     print("5. Add manga to Unread")
     print("6. Drop a manga")
-    print("Exit")
+    print("7. Exit")
     choice = int(input(">>> "))
 
     if choice == 1:
